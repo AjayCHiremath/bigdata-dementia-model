@@ -6,6 +6,18 @@ This project builds a real-time big data processing pipeline to predict dementia
 
 ---
 
+## 📁 Project Structure
+
+| File Name                    | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| `Kafka_initial_data_ingestion.ipynb` | Notebook to set up real-time data ingestion using **Apache Kafka**.              |
+| `flume_configuration.properties`     | Configuration file for **Apache Flume** to stream data to HDFS or Kafka.        |
+| `memory_optimizer.ipynb`            | Optimizes dataframes for memory efficiency and distributed processing in Spark. |
+| `real_time_models.ipynb`            | Core logic: data cleaning, feature selection, model training, and evaluation.   |
+| `README.md`                         | This documentation file.                                                       |
+
+---
+
 ## 🔄 Workflow
 
 ### 🔹 1. Data Loading & Ingestion
